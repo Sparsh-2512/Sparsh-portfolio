@@ -143,7 +143,6 @@ html {
 /* skills */
 
 #skills {
-    color: #f05454;
     display: grid;
     grid-template-areas: 'box-1 box-1 box-1 box-1' 'box-2 box-2 box-2 box-2' 'box-3 box-3 box-3 box-3';
     grid-gap: 1rem;
@@ -152,6 +151,14 @@ html {
 
 .skill-box {
     width: 60%;
+}
+
+.skill-box .h-ter{
+    color: #e176d5;
+}
+
+.skill-box .para{
+    color: #99a8a8;
 }
 
 .skill-box img {
@@ -300,10 +307,6 @@ footer a:hover{
     animation: right-cross 4s ease 0s 1 forwards;
 }
 
-.skew-anim {
-    position: relative;
-    animation: skewed 1s ease 0s 1 forwards;
-}
 
 /* animation keyframes */
 
@@ -347,18 +350,6 @@ footer a:hover{
     }
 }
 
-/* shrink / grow */
-
-@keyframes skewed {
-    0% {
-        transform: skew(20deg);
-        opacity: 0;
-    }
-    100% {
-        transform: skew(0deg);
-        opacity: 1;
-    }
-}
 
 /*fade effect for slideshow */
 

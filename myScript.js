@@ -95,21 +95,21 @@ function toggleMenu()
         // is element in view?
         if (inView(box1,box1Height)) {
             // element is in view, add class to element
-            box1.classList.add('skew-anim');
+            box1.classList.add('right-animation');
         }
     }
     function animate2() {
         // is element in view?
         if (inView(box2,box2Height)) {
             // element is in view, add class to element
-            box2.classList.add('skew-anim');
+            box2.classList.add('right-animation');
         }
     }
     function animate3() {
         // is element in view?
         if (inView(box3,box3Height)) {
             // element is in view, add class to element
-            box3.classList.add('skew-anim');
+            box3.classList.add('right-animation');
         }
     }
 // for opening gmail in new tab (for message me button)
