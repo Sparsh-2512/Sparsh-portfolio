@@ -21,6 +21,7 @@
             <ul id="navigation">
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
@@ -36,7 +37,7 @@
         <div class="intro flexin">
             <h2 class="h-sec">Hi</h2>
             <p class="para">
-                I'm a web designer / developer based in India. I have a passion for web design and
+                I'm a web development enthusiast based in Jaipur. I have a passion for web design and
                 love to create for web and mobile devices.
             </p>
         </div>
@@ -63,46 +64,91 @@
             <img src="images/web.svg" alt="">
             <h2 class="h-ter">Front-end Web Designing</h2>
             <p class="para">I have in-depth knowledge of HTML5, CSS3 and JavaScript(ES6).
-                  Users now use a large variety of devices
-                   with varying screen sizes and resolutions, but all my designs are completely responsive.
-                   Relevant Skills: Wordpress, Bootstrap 4.
+                Users now use a large variety of devices
+                with varying screen sizes and resolutions, but all my designs are completely responsive.
+                Relevant Skills: Bootstrap 5, ReactJS.
             </p>
         </div>
         <div class="skill-box flexin" id="box-2">
-            <img src="images/java.svg" alt="">
-            <h2 class="h-ter">Core Java</h2>
-            <p class="para">I have a sound knowledge of Core Java(Java v1.8).
-                <br>Fact: As of 2019, Java was one of the most popular programming languages
-                 in use according to GitHub,
-                particularly for client-server web applications,
-                 with a reported 9 million developers.
+            <img src="images/c.png" alt="">
+            <h2 class="h-ter">C++</h2>
+            <p class="para">I have a sound knowledge of C++.
+                <br>The name of C++ signifies the evolutionary nature of the changes from C. “++” is the C increment
+                operator.
+                C++ introduces Object-Oriented Programming, not present in C. Like other things, C++ supports the four
+                primary features of OOP: encapsulation, polymorphism, abstraction, and inheritance.
             </p>
         </div>
         <div class="skill-box flexin" id="box-3">
             <img src="images/dsa.svg" alt="">
             <h2 class="h-ter">Data Structures and Algorithms</h2>
-            <p class="para"> 
-                Learning data structures and algorithms allow us to write 
+            <p class="para">
+                Learning data structures and algorithms allow us to write
                 efficient and optimized computer programs.
                 I'm constantly expanding my knowledge of data structures and algorithms.
             </p>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="h-sec">Projects:</div>
+        <div class="project">
+            <h2 class="title">NotesApp (Vanilla JS)</h2>
+            <p class="description">A simple notes taking app using vanilla JavaScript. Used client side browser
+                localstorage to keep notes of user.</p>
+            <a href="https://github.com/Sparsh-2512/NotesApp" target="_blank">
+                <button class="pbtn"> GitHub Repo </button> </a>
+            <a href="https://sparsh-2512.github.io/NotesApp/" target="_blank">
+                <button class="pbtn"> Live Link </button> </a>
+        </div>
+        <div class="project">
+            <h2 class="title">Payment Gateway Integration</h2>
+            <p class="description">A landing page designed using HTML, CSS and JavaScript with
+                payment gateway integration using Razorpay API.</p>
+            <a href="https://github.com/Sparsh-2512/TheSparksFoundationPaymentGateway" target="_blank">
+                <button class="pbtn"> GitHub Repo </button> </a>
+            <a href="https://sparsh-2512.github.io/TheSparksFoundationPaymentGateway/" target="_blank">
+                <button class="pbtn"> Live Link </button> </a>
+        </div>
+        <div class="project">
+            <h2 class="title">NotesApp (ReactJS)</h2>
+            <p class="description">A simple notes taking application made with ReactJS, Bootstrap5. Client-side
+                localstorage has been used to store the data.</p>
+            <a href="https://github.com/Sparsh-2512/react-notes-app" target="_blank">
+                <button class="pbtn"> GitHub Repo </button> </a>
+            <a href="https://react-notes-taking-app.herokuapp.com/" target="_blank">
+                <button class="pbtn"> Live Link </button> </a>
+        </div>
+        <div class="project">
+            <h2 class="title">NewsApp (AJAX)</h2>
+            <p class="description">Used News API to fetch top headlines filtered by source: BBC News and populate the
+                DOM with the fetched News articles. Tech Stack: NewsAPI, Bootstrap, HTML, CSS, AJAX (xmlHttpRequest)</p>
+            <a href="https://github.com/Sparsh-2512/NewsAppAJAX" target="_blank">
+                <button class="pbtn"> GitHub Repo </button> </a>
+        </div>
+        <div class="project">
+            <h2 class="title">NewsApp (ReactJS)</h2>
+            <p class="description">Used News API to fetch top headlines filtered by source: BBC News and populate the
+                DOM with the fetched News articles. Tech Stack: NewsAPI, Bootstrap, HTML, CSS, ReactJS, Vanilla
+                Javascript for fetching News</p>
+            <a href="https://github.com/Sparsh-2512/react-newsapi" target="_blank">
+                <button class="pbtn"> GitHub Repo </button> </a>
         </div>
     </section>
     <section id="contact" class="">
         <div class="flexin">
             <h1 class="h-sec">Get in touch</h1>
             <h2 class="h-ter">I can help.</h2>
-            <h2 class="h-ter">I’m currently available for freelance work.</h2>
+            <h2 class="h-ter">I’m currently open for work.</h2>
             <p class="para">If you have a project that you want to get started,
                 think you need my help with something or just fancy saying hey, then get in touch.</p>
-                <a onclick="mailto('sparshkhandelwal729cd@gmail.com', 'Subject', 'Body');event.preventDefault()">
+            <a onclick="mailto('sparshkhandelwal729cd@gmail.com', 'Subject', 'Body');event.preventDefault()">
                 <button class="btn">Message Me <img src="images/paper-plane.svg" alt=""></button>
             </a>
         </div>
         <div id="socials">
             <div class="flexin">
                 <a href="https://www.hackerrank.com/Sparsh_25" target="_blank">
-                    <img src="images/h-logo.png" alt="Hackerrank"/>
+                    <img src="images/h-logo.png" alt="Hackerrank" />
                 </a>
                 <h2 class="h-ter">Hackerrank</h2>
             </div>
@@ -120,10 +166,11 @@
             </div>
         </div>
     </section>
-    <footer class="sec flexin">&copy;Sparsh Khandelwal 2020 <hr>
-    <a onclick="mailto('sparshkhandelwal729cd@gmail.com', 'Subject', 'Body');event.preventDefault()">gmail</a>
+    <footer class="sec flexin">&copy;Sparsh Khandelwal 2020
+        <hr>
+        <a onclick="mailto('sparshkhandelwal729cd@gmail.com', 'Subject', 'Body');event.preventDefault()">gmail</a>
 
-</footer>
+    </footer>
 </body>
 <script src="myScript.js"></script>
 
